@@ -1,0 +1,161 @@
+{
+  "properties": [
+    {
+      "id": "1",
+      "title": "Modern Downtown Apartment",
+      "description": "Beautiful modern apartment in the heart of downtown with stunning city views and premium amenities.",
+      "price": 150,
+      "location": "Downtown",
+      "address": "123 Main St, Downtown",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "images": [
+        "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+        "https://images.pexels.com/photos/1571467/pexels-photo-1571467.jpeg"
+      ],
+      "features": [
+        "WiFi",
+        "Kitchen",
+        "Air Conditioning",
+        "Parking",
+        "Gym",
+        "Pool",
+        "Balcony"
+      ],
+      "type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "guests": 4,
+      "rating": 4.8,
+      "reviews": 127,
+      "host": {
+        "name": "Sarah Johnson",
+        "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+        "verified": true
+      }
+    },
+    {
+      "id": "2",
+      "title": "Cozy Beach House",
+      "description": "Charming beach house with ocean views, perfect for a relaxing getaway with family and friends.",
+      "price": 220,
+      "location": "Beachfront",
+      "address": "456 Ocean Blvd, Beachfront",
+      "coordinates": {
+        "latitude": 37.7849,
+        "longitude": -122.4094
+      },
+      "images": [
+        "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg",
+        "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg"
+      ],
+      "features": [
+        "WiFi",
+        "Kitchen",
+        "Ocean View",
+        "Parking",
+        "Beach Access",
+        "Patio",
+        "BBQ Grill"
+      ],
+      "type": "House",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "guests": 6,
+      "rating": 4.9,
+      "reviews": 89,
+      "host": {
+        "name": "Mike Chen",
+        "avatar": "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+        "verified": true
+      }
+    },
+    {
+      "id": "3",
+      "title": "Luxury Mountain Cabin",
+      "description": "Stunning mountain cabin with panoramic views, hot tub, and all modern amenities for the perfect mountain retreat.",
+      "price": 300,
+      "location": "Mountains",
+      "address": "789 Mountain View Dr, Mountains",
+      "coordinates": {
+        "latitude": 37.7649,
+        "longitude": -122.4294
+      },
+      "images": [
+        "https://images.pexels.com/photos/1396131/pexels-photo-1396131.jpeg",
+        "https://images.pexels.com/photos/1396133/pexels-photo-1396133.jpeg"
+      ],
+      "features": [
+        "WiFi",
+        "Kitchen",
+        "Mountain View",
+        "Parking",
+        "Hot Tub",
+        "Fireplace",
+        "Hiking Trails"
+      ],
+      "type": "Cabin",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "guests": 8,
+      "rating": 4.7,
+      "reviews": 156,
+      "host": {
+        "name": "Emma Wilson",
+        "avatar": "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg",
+        "verified": true
+      }
+    },
+    {
+      "id": "4",
+      "title": "Urban Loft",
+      "description": "Trendy loft in the arts district with exposed brick, high ceilings, and walking distance to galleries and cafes.",
+      "price": 180,
+      "location": "Arts District",
+      "address": "321 Arts Ave, Arts District",
+      "coordinates": {
+        "latitude": 37.7549,
+        "longitude": -122.4394
+      },
+      "images": [
+        "https://images.pexels.com/photos/1571463/pexels-photo-1571463.jpeg",
+        "https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg"
+      ],
+      "features": [
+        "WiFi",
+        "Kitchen",
+        "High Ceilings",
+        "Parking",
+        "Exposed Brick",
+        "Workspace",
+        "Rooftop Access"
+      ],
+      "type": "Loft",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "guests": 2,
+      "rating": 4.6,
+      "reviews": 78,
+      "host": {
+        "name": "David Martinez",
+        "avatar": "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg",
+        "verified": true
+      }
+    }
+  ],
+  "bookings": [
+    {
+      "id": "2b96",
+      "propertyId": "1",
+      "userId": "user1",
+      "checkIn": "2025-06-15",
+      "checkOut": "2025-06-17",
+      "guests": 2,
+      "totalPrice": 300,
+      "status": "confirmed",
+      "createdAt": "2025-06-14T09:30:32.357Z"
+    }
+  ]
+}
