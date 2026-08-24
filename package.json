@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "EXPO_NO_TELEMETRY=1 expo start",
+    "dev": "node api.js && EXPO_NO_TELEMETRY=1 expo start",
     "lint": "expo lint",
     "server": "json-server --watch db.json --port 3001"
   },
